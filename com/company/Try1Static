@@ -1,0 +1,19 @@
+package com.company;
+
+public class Try2Static {
+    public static void howdy() {System.out.println("howdy");};
+    public static final int myConstant = 343;
+    public static final Try1Static t1S = new Try1Static();
+    public int instVar = 42;
+}
+
+public class Try1Static {
+    public static void main(String[] sss){
+        Try2Static.howdy();
+        System.out.println(Try2Static.myConstant + " ");
+        System.out.println(myConstant + " ");
+        howdy();
+        System.out.println(t1S.instVar + " ");
+        System.out.println(instVar + " ");
+    }
+}
