@@ -1,9 +1,9 @@
-package com.company;
+package practice.com.company;
 
 
-class NullNestedChecks implements MyInterface {
+class NullNestedChecks implements com.company.MyInterface {
 
-    static Home home;
+    static com.company.Home home;
 
     public static void main(String[] s) {
 

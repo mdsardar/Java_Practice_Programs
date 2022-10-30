@@ -4,12 +4,12 @@ interface Gadget {
     void doStuff();
 }
 
-public class Tablet extends Electronic implements MyInterface {
+public class Tablet extends Electronic implements com.company.MyInterface {
 
     public static void main(String[] args) {
         new Tablet().doStuff();
         new Tablet().getPower();
-        MyInterface.m1();
+        com.company.MyInterface.m1();
     }
 
     void doStuff() {
@@ -18,7 +18,7 @@ public class Tablet extends Electronic implements MyInterface {
 
     @Override
     public short m4() {
-        return MyInterface.super.m4();
+        return com.company.MyInterface.super.m4();
     }
 
 

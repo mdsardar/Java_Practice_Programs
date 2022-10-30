@@ -17,7 +17,8 @@ public class MultiResources {
         new MultiResources().run();
     }
     public void run() throws Exception {
-        try (Lamb l = new Lamb(); /*System.out.print("t");*/ Goat g = new Goat();) {
+        try (Lamb l = new Lamb();
+             Goat g = new Goat();) {
             System.out.println("2");
         } finally {
             System.out.println("f");

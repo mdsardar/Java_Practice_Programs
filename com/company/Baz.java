@@ -1,6 +1,7 @@
-package com.company;
+package practice.com.company;
 
-import pkgA.Foo;
+
+import practice.pkgA.Foo;
 
 public class Baz {
     public static void main(String[] args) {

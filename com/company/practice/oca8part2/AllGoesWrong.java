@@ -14,6 +14,7 @@ public class AllGoesWrong {
         } finally {
             System.out.println("d");
         }
+        //System.out.println("e");
     }
 
     void blowUp() throws IOException, SQLException {

@@ -13,6 +13,12 @@ public class InterningStr {
         String s22 = new String("HAI");
         System.out.println(s11 == s22);
 
+        String str3 = new String(s1);
+        System.out.println("str3 == s1 ? " + (str3 == s1));
+        System.out.println("str3 == s1 ? " + (str3.equalsIgnoreCase(s1)));
+
+
+
         new InterningStr().foo("null");
     }
 
